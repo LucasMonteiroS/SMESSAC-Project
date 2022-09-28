@@ -1,0 +1,85 @@
+h3 {
+  color: white;
+}
+.ajuste{
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(27, 27, 27);
+}
+.plano{
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+.img_plano{
+ margin-top: -0.8%;
+ width: 80%;
+ height: 300px;
+}
+.mod_plano_1{
+  background-image: url(/src/assets/plano_1.jpg);
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+  width: 80%;
+  height: 300px;
+}
+.mod_plano_2{
+  background-image: url(/src/assets/plano_2.jpg);
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+  width: 80%;
+  height: 300px;
+}
+.mod_plano_3{
+  background-image: url(/src/assets/plano_3.png);
+  background-color: white;
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+  width: 80%;
+  height: 300px;
+}
+.mod_plano_3:hover{
+  background-color: white;
+}
+.mod_plano_4{
+  background-image: url(/src/assets/plano_4.jpg);
+  background-color: white;
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+  width: 80%;
+  height: 300px;
+}
+.mod_plano_5{
+  background-image: url(/src/assets/plano_5.png);
+  background-color: white;
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+  width: 80%;
+  height: 300px;
+}
+.mod_plano_5:hover{
+  background-color: white;
+}
+.group_icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons{
+  text-decoration: none;
+  margin-left: 5%;
+  padding-right: 5%;
+}

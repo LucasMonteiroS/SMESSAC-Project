@@ -1,0 +1,19 @@
+.list-group{
+  width: 45%;
+}
+.ajuste{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  width: 350px;
+  height: 350px;
+}
+h3{
+  color: white;
+}
+p{
+  font-size: 18px;
+  font-weight: bold;
+}

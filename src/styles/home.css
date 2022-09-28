@@ -1,0 +1,14 @@
+h3 {
+  color: white;
+}
+p {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(27, 27, 27);
+}
+.install {
+  margin-top: 3%;
+}
+.list-group {
+  width: 40%;
+}

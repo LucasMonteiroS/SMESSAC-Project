@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/src/styles/style.css" />
+    <link rel="stylesheet" href="/src/styles/fale.css" />
+    <title>SMESSAC - Fale Conosco</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand logo">
+          <img src="/src/assets/logo.png" class="logo-img" />
+        </a>
+        <a class="navbar-brand logo">Hospital SMESSAC</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/src/pages/home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/src/pages/profissionais.html"
+                >Profissionais da Saúde</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/src/pages/planos.html"
+                >Planos de Saúde</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/src/pages/primeirocad.html"
+                >Primeiro Cadastro</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/src/pages/doacao.html">Doe Sangue</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/src/pages/faleconosco.html"
+                >Fale Conosco <span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <section class="ajuste">
+          <h3>Nos envie sua dúvida, responderemos assim que possível</h3>
+        </section>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-5">
+              <label for="inputName">Nome completo</label>
+              <input type="text" class="form-control" id="inputName" />
+            </div>
+            <div class="form-group col-md-3">
+              <label for="inputTel">Telefone</label>
+              <input
+                type="tel"
+                class="form-control"
+                id="inputTel"
+                placeholder="6799988-7766"
+              />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-5">
+              <label for="inputEmail">E-mail</label>
+              <input type="email" class="form-control" id="inputEmail" />
+            </div>
+            <div class="form-group col-md-3">
+              <label for="inputSubject">Assunto</label>
+              <select id="inputSubject" class="form-control">
+                <option selected>Escolher Assunto</option>
+                <option>Consultas</option>
+                <option>Exames</option>
+                <option>Atendimento</option>
+                <option>Agendamento</option>
+                <option>Doação de sangue</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-8">
+              <label for="exampleFormControlTextarea1"
+                >Descreva melhor o assunto a ser tratado:</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-outline-primary btn-lg">
+            Enviar
+          </button>
+        </form>
+        <section class="ajuste">
+          <h3>Canais de acesso</h3>
+        </section>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm group_icons">
+              <a class="icons" href="https://www.facebook.com/HospitalAlbertEinstein" target="_blank"><img src="/src/assets/facebook_icon.png" /></a>
+              <a class="icons" href="https://www.instagram.com/hosp_einstein/" target="_blank"><img src="/src/assets/instagram_icon.png" /></a>
+              <a class="icons" href="https://twitter.com/hosp_einstein" target="_blank"><img src="/src/assets/twitter_icon.png" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="ajuste">
+          <h3 class="vid">Confira agora nossas instalações:</h3>
+        </div>
+        <section class="ajusteComp">
+          <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/ZD3pzkiekiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <div class="ajuste">
+          <h3>Visite-nos nesse endereço:</h3>
+        </div>
+        <section class="ajusteComp">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14624.486058401617!2d-46.7152573!3d-23.5999746!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce56dc138906d5%3A0xfa2f75da82a1dd3c!2sHospital%20Israelita%20Albert%20Einstein%20Morumbi!5e0!3m2!1spt-BR!2sbr!4v1664329543313!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

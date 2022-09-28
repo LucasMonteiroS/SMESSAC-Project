@@ -1,0 +1,12 @@
+.ajuste{
+  margin: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  margin-top: 2%;
+}
+h3 {
+  color: white;
+}

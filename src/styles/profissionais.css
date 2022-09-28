@@ -1,0 +1,34 @@
+section{
+  margin-top: 3%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.med-logs{
+  width: 100px;
+  height: 100px;
+}
+h3 {
+  color: white;
+}
+.ajuste-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span{
+  display: block;
+  color: black;
+  font-size: 18px;
+}
+.col{
+  border-radius: 2%;
+  border-color: black;
+  border-style: double;
+  margin-top: 2%;
+}
+.col:hover{
+  border-color: white;
+  border-style: solid;
+}
