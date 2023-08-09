@@ -1,0 +1,1 @@
+O projeto do hospital SMESSAC foi desenvolvido para realização de uma atividade de Desenvolvimento Web 1, no projeto foi utilizado referência de um hospital real.
